@@ -1,4 +1,3 @@
-import asyncio
 import logging
 from logging.handlers import RotatingFileHandler
 
@@ -33,8 +32,6 @@ from Bot.handlers import other_handlers, auth, other
 # Импортируем вспомогательные функции для создания нужных объектов
 # ...
 from Bot.keyboards.main_menu import set_main_menu
-from Bot.utils.statistics import UserInfo
-from Bot.utils.utils import get_full_path_logger, Files
 
 # Инициализируем логгер
 # В библиотеке logging уже реализовано довольно много полезных хэндлеров для управления
